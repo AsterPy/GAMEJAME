@@ -1,8 +1,10 @@
-[gd_scene load_steps=17 format=3 uid="uid://sy7pk3q5t7n3"]
+[gd_scene load_steps=19 format=3 uid="uid://sy7pk3q5t7n3"]
 
 [ext_resource type="Texture2D" uid="uid://cl21ork770con" path="res://assets/2 Owlet_Monster/Owlet_Monster_Idle_4.png" id="1_vnaq3"]
 [ext_resource type="Texture2D" uid="uid://drhbmrhd4ree1" path="res://assets/2 Owlet_Monster/Owlet_Monster_Jump_8.png" id="2_2adhb"]
 [ext_resource type="Texture2D" uid="uid://blobw5lo7w2cm" path="res://assets/2 Owlet_Monster/Owlet_Monster_Run_6.png" id="3_2jr5w"]
+[ext_resource type="AudioStream" uid="uid://dg5tkfrkkyet8" path="res://bg.mp3" id="4_hhh4n"]
+[ext_resource type="AudioStream" uid="uid://c0y7icu7hv0rg" path="res://jump.mp3" id="5_57174"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_07mu2"]
 atlas = ExtResource("1_vnaq3")
@@ -102,7 +104,8 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0m73u"]
 size = Vector2(34, 41)
 
-[node name="CharacterBody2D" type="CharacterBody2D"]
+[node name="CharacterBody2D" type="CharacterBody2D" groups=["player"]]
+collision_layer = 3
 
 [node name="Sprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
@@ -115,3 +118,12 @@ autoplay = "default"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1, 2.5)
 shape = SubResource("RectangleShape2D_0m73u")
+
+[node name="BG" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_hhh4n")
+volume_db = -26.0
+autoplay = true
+
+[node name="Jump" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_57174")
+volume_db = -15.556
