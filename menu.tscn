@@ -1,0 +1,49 @@
+[gd_scene load_steps=5 format=3 uid="uid://c0lv72wxay8d7"]
+
+[ext_resource type="Script" path="res://menu.gd" id="1_6u5p0"]
+[ext_resource type="Texture2D" uid="uid://bkxgn4kr62i14" path="res://assets/Layers/sky_lightened.png" id="1_m2653"]
+[ext_resource type="Texture2D" uid="uid://dxawyqcajwgau" path="res://assets/logo.png" id="2_qrj4p"]
+[ext_resource type="FontFile" uid="uid://cbbvbfsoouyu2" path="res://PressStart2P-Regular.ttf" id="3_b47d6"]
+
+[node name="Menu" type="Node"]
+script = ExtResource("1_6u5p0")
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_m2653")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -478.0
+offset_top = -228.0
+offset_right = 479.0
+offset_bottom = -86.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_qrj4p")
+
+[node name="play" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -301.0
+offset_top = 27.0
+offset_right = 297.0
+offset_bottom = 138.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("3_b47d6")
+theme_override_font_sizes/font_size = 27
+text = "ГРАТИ"
+
+[connection signal="pressed" from="play" to="." method="_on_play_pressed"]

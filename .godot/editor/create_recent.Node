@@ -1,8 +1,11 @@
 TextureRect
-AnimatedSprite2D
-Label
+Timer
+Button
 CollisionShape2D
 Area2D
+Node
+AnimatedSprite2D
+Label
 CanvasLayer
 NinePatchRect
 MarginContainer

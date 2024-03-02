@@ -42,14 +42,24 @@ func _physics_process(delta):
 
 func _on_area_2d_body_entered(body):
 	if body.name == "CharacterBody2D":
-		get_tree().reload_current_scene() 
+		%CharacterBody2D.set_global_position(Vector2(80, 100))
 
 
 func _on_npc_body_entered(body):
 	if body.name == "CharacterBody2D":
 		$"../npc/npc/TextureRect".visible = true
+		$Camera2D/start.visible = true
+		$Camera2D/startBlock.visible = false
 
 
 func _on_npc_body_exited(body):
 	if body.name == "CharacterBody2D":
 		$"../npc/npc/TextureRect".visible = false
+
+func _on_cloud1_pressed():
+	$Camera2D/cloud1.visible = true
+	$"../Timer".start() 
+
+func _on_timer_timeout():
+	$Camera2D/cloud1.visible = false
+

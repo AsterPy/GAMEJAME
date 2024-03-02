@@ -3,18 +3,23 @@ ea4bc82a6ad023ab7ee23ee620429895
 15 Blob TileMap 16x16 (1).png::CompressedTexture2D::5981344962990884528::1709322679::1709323874::1::::<><>::
 bg.mp3::AudioStreamMP3::7643498215677994519::1709332938::1709332962::1::::<><>::
 bg_sound.tscn::PackedScene::4445947525808119078::1709333690::0::1::::<><>::uid://dg5tkfrkkyet8::::res://bg.mp3
-dialog_area.tscn::PackedScene::1306761098319359120::1709407593::0::1::::<><>::
-game.tscn::PackedScene::4687429566205949515::1709407726::0::1::::<><>::uid://bkxgn4kr62i14::::res://assets/Layers/sky_lightened.png<>uid://ctjnfovsdrjck::::res://assets/Cloud Tileset.png<>uid://crhn43tmae7ge::::res://15 Blob TileMap 16x16 (1).png<>uid://sy7pk3q5t7n3::::res://player.tscn<>res://player.gd<>uid://bcxonjv63gh8o::::res://assets/Layers/clouds_bg.png<>uid://dotvqoor5dtj2::::res://assets/Idle.png<>uid://cbbvbfsoouyu2::::res://PressStart2P-Regular.ttf<>uid://l3i4y578u8yc::::res://assets/pnc_start.png
+dialog_area.tscn::PackedScene::2621791450698874013::1709414468::0::1::::<><>::
+game.tscn::PackedScene::4687429566205949515::1709414468::0::1::::<><>::uid://bkxgn4kr62i14::::res://assets/Layers/sky_lightened.png<>uid://ctjnfovsdrjck::::res://assets/Cloud Tileset.png<>uid://crhn43tmae7ge::::res://15 Blob TileMap 16x16 (1).png<>uid://sy7pk3q5t7n3::::res://player.tscn<>res://player.gd<>uid://bcxonjv63gh8o::::res://assets/Layers/clouds_bg.png<>uid://ctup3u0e31dna::::res://assets/Layers/clouds_mg_1_lightened.png<>uid://dotvqoor5dtj2::::res://assets/Idle.png<>uid://cbbvbfsoouyu2::::res://PressStart2P-Regular.ttf<>uid://l3i4y578u8yc::::res://assets/pnc_start.png<>uid://c7u6ay3sh84oh::::res://assets/Start.png<>uid://clwjjopmebqye::::res://assets/StartBlock.png<>uid://ci3oybtwjjell::::res://assets/rainbow.png
 jump.mp3::AudioStreamMP3::6579064891961143748::1709334332::1709334345::1::::<><>::
-npc.gd::GDScript::-1::1709403977::0::1::::<>Area2D<>::
+menu.gd::GDScript::-1::1709411645::0::1::::<>Node<>::
+menu.tscn::PackedScene::6551604269046869034::1709414468::0::1::::<><>::res://menu.gd<>uid://bkxgn4kr62i14::::res://assets/Layers/sky_lightened.png<>uid://dxawyqcajwgau::::res://assets/logo.png<>uid://cbbvbfsoouyu2::::res://PressStart2P-Regular.ttf
 npc.tscn::PackedScene::3647165013889433228::1709403980::0::1::::<><>::res://npc.gd
-player.gd::GDScript::-1::1709405594::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::1314914551514984014::1709407593::0::1::::<><>::uid://cl21ork770con::::res://assets/2 Owlet_Monster/Owlet_Monster_Idle_4.png<>uid://drhbmrhd4ree1::::res://assets/2 Owlet_Monster/Owlet_Monster_Jump_8.png<>uid://blobw5lo7w2cm::::res://assets/2 Owlet_Monster/Owlet_Monster_Run_6.png<>uid://dg5tkfrkkyet8::::res://bg.mp3<>uid://c0y7icu7hv0rg::::res://jump.mp3
+player.gd::GDScript::-1::1709413657::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::1314914551514984014::1709414468::0::1::::<><>::uid://bhf1dkd17u3me::::res://assets/1 Pink_Monster/Pink_Monster_Idle_4.png<>uid://dxsb3j3owgmlt::::res://assets/1 Pink_Monster/Pink_Monster_Jump_8.png<>uid://byq2hydbqx02o::::res://assets/1 Pink_Monster/Pink_Monster_Run_6.png<>uid://dg5tkfrkkyet8::::res://bg.mp3<>uid://c0y7icu7hv0rg::::res://jump.mp3
 PressStart2P-Regular.ttf::FontFile::4846371722499144291::1709406679::1709406679::1::::<><>::
 ::res://assets/::1709327173
 Cloud Tileset.png::CompressedTexture2D::6125807814761163946::1709308013::1709323874::1::::<><>::
 Idle.png::CompressedTexture2D::8182433426656262705::1709321584::1709323874::1::::<><>::
+logo.png::CompressedTexture2D::8774984931124737516::1709411203::1709411211::1::::<><>::
 pnc_start.png::CompressedTexture2D::830418689500797286::1709404932::1709404940::1::::<><>::
+rainbow.png::CompressedTexture2D::5393047673443182057::1709413978::1709414027::1::::<><>::
+Start.png::CompressedTexture2D::7062055450303644431::1709412949::1709414000::1::::<><>::
+StartBlock.png::CompressedTexture2D::5590898242123512956::1709413063::1709414007::1::::<><>::
 ::res://assets/1 Pink_Monster/::1709327173
 Double_Jump_Dust_5.png::CompressedTexture2D::1510333489609871955::1709308582::1709323874::1::::<><>::
 Pink_Monster.png::CompressedTexture2D::8465754713662384886::1709308582::1709323874::1::::<><>::
@@ -75,3 +80,10 @@ clouds_mg_1.png::CompressedTexture2D::8988287563597882669::1709308071::170932387
 clouds_mg_1_lightened.png::CompressedTexture2D::6148678798018145174::1709308071::1709323874::1::::<><>::
 sky.png::CompressedTexture2D::8317136653998490103::1709308071::1709323874::1::::<><>::
 sky_lightened.png::CompressedTexture2D::3136178865134260505::1709308071::1709323874::1::::<><>::
+::res://assets/memes/::1709415626
+::res://assets/memes/memes_cloud/::1709415711
+meme_cloud1.png::CompressedTexture2D::8536151185589474220::1709415708::1709415708::1::::<><>::
+meme_cloud2.png::CompressedTexture2D::7075941057148755562::1709415711::1709415711::1::::<><>::
+::res://assets/memes/memes_img/::1709415715
+meme_img1.png::CompressedTexture2D::1292617888728569804::1709415715::1709415715::1::::<><>::
+meme_img2.png::CompressedTexture2D::2355897735425806347::1709415713::1709415713::1::::<><>::
