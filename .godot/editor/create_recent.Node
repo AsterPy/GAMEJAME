@@ -1,5 +1,10 @@
-AudioStreamPlayer2D
-CollisionShape2D
-Sprite2D
+TextureRect
+AnimatedSprite2D
 Label
+CollisionShape2D
 Area2D
+CanvasLayer
+NinePatchRect
+MarginContainer
+AudioStreamPlayer2D
+Sprite2D

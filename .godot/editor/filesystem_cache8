@@ -1,15 +1,20 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1709334345
+::res://::1709331121
 15 Blob TileMap 16x16 (1).png::CompressedTexture2D::5981344962990884528::1709322679::1709323874::1::::<><>::
 bg.mp3::AudioStreamMP3::7643498215677994519::1709332938::1709332962::1::::<><>::
 bg_sound.tscn::PackedScene::4445947525808119078::1709333690::0::1::::<><>::uid://dg5tkfrkkyet8::::res://bg.mp3
-game.tscn::PackedScene::4687429566205949515::1709333858::0::1::::<><>::uid://bkxgn4kr62i14::::res://assets/Layers/sky_lightened.png<>uid://ctjnfovsdrjck::::res://assets/Cloud Tileset.png<>uid://sy7pk3q5t7n3::::res://player.tscn<>res://player.gd<>uid://bcxonjv63gh8o::::res://assets/Layers/clouds_bg.png<>uid://dotvqoor5dtj2::::res://assets/Idle.png
+dialog_area.tscn::PackedScene::1306761098319359120::1709407593::0::1::::<><>::
+game.tscn::PackedScene::4687429566205949515::1709407726::0::1::::<><>::uid://bkxgn4kr62i14::::res://assets/Layers/sky_lightened.png<>uid://ctjnfovsdrjck::::res://assets/Cloud Tileset.png<>uid://crhn43tmae7ge::::res://15 Blob TileMap 16x16 (1).png<>uid://sy7pk3q5t7n3::::res://player.tscn<>res://player.gd<>uid://bcxonjv63gh8o::::res://assets/Layers/clouds_bg.png<>uid://dotvqoor5dtj2::::res://assets/Idle.png<>uid://cbbvbfsoouyu2::::res://PressStart2P-Regular.ttf<>uid://l3i4y578u8yc::::res://assets/pnc_start.png
 jump.mp3::AudioStreamMP3::6579064891961143748::1709334332::1709334345::1::::<><>::
-player.gd::GDScript::-1::1709326808::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::1314914551514984014::1709333858::0::1::::<><>::uid://cl21ork770con::::res://assets/2 Owlet_Monster/Owlet_Monster_Idle_4.png<>uid://drhbmrhd4ree1::::res://assets/2 Owlet_Monster/Owlet_Monster_Jump_8.png<>uid://blobw5lo7w2cm::::res://assets/2 Owlet_Monster/Owlet_Monster_Run_6.png<>uid://dg5tkfrkkyet8::::res://bg.mp3
+npc.gd::GDScript::-1::1709403977::0::1::::<>Area2D<>::
+npc.tscn::PackedScene::3647165013889433228::1709403980::0::1::::<><>::res://npc.gd
+player.gd::GDScript::-1::1709405594::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::1314914551514984014::1709407593::0::1::::<><>::uid://cl21ork770con::::res://assets/2 Owlet_Monster/Owlet_Monster_Idle_4.png<>uid://drhbmrhd4ree1::::res://assets/2 Owlet_Monster/Owlet_Monster_Jump_8.png<>uid://blobw5lo7w2cm::::res://assets/2 Owlet_Monster/Owlet_Monster_Run_6.png<>uid://dg5tkfrkkyet8::::res://bg.mp3<>uid://c0y7icu7hv0rg::::res://jump.mp3
+PressStart2P-Regular.ttf::FontFile::4846371722499144291::1709406679::1709406679::1::::<><>::
 ::res://assets/::1709327173
 Cloud Tileset.png::CompressedTexture2D::6125807814761163946::1709308013::1709323874::1::::<><>::
 Idle.png::CompressedTexture2D::8182433426656262705::1709321584::1709323874::1::::<><>::
+pnc_start.png::CompressedTexture2D::830418689500797286::1709404932::1709404940::1::::<><>::
 ::res://assets/1 Pink_Monster/::1709327173
 Double_Jump_Dust_5.png::CompressedTexture2D::1510333489609871955::1709308582::1709323874::1::::<><>::
 Pink_Monster.png::CompressedTexture2D::8465754713662384886::1709308582::1709323874::1::::<><>::

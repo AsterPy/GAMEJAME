@@ -43,3 +43,13 @@ func _physics_process(delta):
 func _on_area_2d_body_entered(body):
 	if body.name == "CharacterBody2D":
 		get_tree().reload_current_scene() 
+
+
+func _on_npc_body_entered(body):
+	if body.name == "CharacterBody2D":
+		$"../npc/npc/TextureRect".visible = true
+
+
+func _on_npc_body_exited(body):
+	if body.name == "CharacterBody2D":
+		$"../npc/npc/TextureRect".visible = false

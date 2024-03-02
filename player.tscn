@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://sy7pk3q5t7n3"]
+[gd_scene load_steps=20 format=3 uid="uid://sy7pk3q5t7n3"]
 
 [ext_resource type="Texture2D" uid="uid://cl21ork770con" path="res://assets/2 Owlet_Monster/Owlet_Monster_Idle_4.png" id="1_vnaq3"]
 [ext_resource type="Texture2D" uid="uid://drhbmrhd4ree1" path="res://assets/2 Owlet_Monster/Owlet_Monster_Jump_8.png" id="2_2adhb"]
@@ -104,6 +104,9 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0m73u"]
 size = Vector2(34, 41)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ryvmn"]
+size = Vector2(34, 41)
+
 [node name="CharacterBody2D" type="CharacterBody2D" groups=["player"]]
 collision_layer = 3
 
@@ -121,9 +124,16 @@ shape = SubResource("RectangleShape2D_0m73u")
 
 [node name="BG" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("4_hhh4n")
-volume_db = -26.0
+volume_db = -13.619
 autoplay = true
 
 [node name="Jump" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("5_57174")
 volume_db = -15.556
+
+[node name="DialogInteractionArea" type="Area2D" parent="."]
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DialogInteractionArea"]
+position = Vector2(1, 2.5)
+shape = SubResource("RectangleShape2D_ryvmn")

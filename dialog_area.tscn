@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://svafuamnkcv5"]
+
+[sub_resource type="GDScript" id="GDScript_2nma8"]
+script/source = "extends Area2D
+
+@export var dialog_key = \"\"
+
+var area_active = false
+
+func _input(event):
+	if area_active and event.is_action_pressed(\"ui_accept\"):
+		SignalBus.emit_signal(\"display_dialog\", dialog_key)
+
+func _on_dialog_area_entered(area):
+	area_active = true
+
+func _on_dialog_area_exited(area):
+	area_active = false
+"
+
+[node name="dialog_area" type="Area2D"]
+process_mode = 1
+collision_layer = 0
+script = SubResource("GDScript_2nma8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[connection signal="area_entered" from="." to="." method="_on_dialog_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_dialog_area_exited"]
