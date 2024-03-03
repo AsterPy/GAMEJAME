@@ -1,8 +1,8 @@
-TextureRect
-Timer
 Button
 CollisionShape2D
+TextureRect
 Area2D
+Timer
 Node
 AnimatedSprite2D
 Label

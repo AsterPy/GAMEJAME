@@ -1,6 +1,6 @@
 res://game.tscn
-res://player.tscn
-res://dialog_area.tscn
-res://menu.tscn
-res://menu.gd
 res://player.gd
+res://end_menu.tscn
+res://Button.gd
+res://player.tscn
+res://menu.tscn

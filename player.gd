@@ -48,7 +48,6 @@ func _on_area_2d_body_entered(body):
 func _on_npc_body_entered(body):
 	if body.name == "CharacterBody2D":
 		$"../npc/npc/TextureRect".visible = true
-		$Camera2D/start.visible = true
 		$Camera2D/startBlock.visible = false
 
 
@@ -56,10 +55,98 @@ func _on_npc_body_exited(body):
 	if body.name == "CharacterBody2D":
 		$"../npc/npc/TextureRect".visible = false
 
-func _on_cloud1_pressed():
-	$Camera2D/cloud1.visible = true
-	$"../Timer".start() 
+func _on_meme_1_pressed():
+	$Camera2D/meme_img1_block.visible = false
 
-func _on_timer_timeout():
-	$Camera2D/cloud1.visible = false
+func _on_meme_2_pressed():
+	$Camera2D/meme_img2_block.visible = false
 
+func _on_meme_3_pressed():
+	$Camera2D/meme_img3_block.visible = false
+
+func _on_meme_4_pressed():
+	$Camera2D/meme_img4_block.visible = false
+
+
+func _on_npc_2_body_entered(body):
+	if body.name == "CharacterBody2D":
+		$"../npc2/npc2/TextureRect".visible = true
+		$Camera2D/npc2Block.visible = false
+
+func _on_npc_2_body_exited(body):
+	if body.name == "CharacterBody2D":
+		$"../npc2/npc2/TextureRect".visible = false
+
+
+func _on_npc_3_body_entered(body):
+	if body.name == "CharacterBody2D":
+		$"../npc3/npc3/TextureRect".visible = true
+		$Camera2D/npc3Block.visible = false
+
+
+func _on_npc_3_body_exited(body):
+	if body.name == "CharacterBody2D":
+		$"../npc3/npc3/TextureRect".visible = false
+
+
+func _on_npc_4_body_entered(body):
+	if body.name == "CharacterBody2D":
+		$"../npc4/npc4/TextureRect".visible = true
+		$Camera2D/npc4Block.visible = false
+
+
+func _on_npc_4_body_exited(body):
+	if body.name == "CharacterBody2D":
+		$"../npc4/npc4/TextureRect".visible = false
+
+
+func _on_npc_5_body_entered(body):
+	if body.name == "CharacterBody2D":
+		$"../npc5/npc5/TextureRect".visible = true
+		$Camera2D/npc5Block.visible = false
+
+
+func _on_npc_5_body_exited(body):
+	if body.name == "CharacterBody2D":
+		$"../npc5/npc5/TextureRect".visible = false
+
+
+
+func _on_npc_6_body_entered(body):
+	if body.name == "CharacterBody2D":
+		$"../npc6/npc6/TextureRect".visible = true
+		$Camera2D/npc6Block.visible = false
+
+
+func _on_npc_6_body_exited(body):
+	if body.name == "CharacterBody2D":
+		$"../npc6/npc6/TextureRect".visible = false
+
+
+
+func _on_npc_7_body_entered(body):
+	if body.name == "CharacterBody2D":
+		$"../npc7/npc7/TextureRect".visible = true
+		$Camera2D/npc7Block.visible = false
+
+func _on_npc_7_body_exited(body):
+	if body.name == "CharacterBody2D":
+		$"../npc7/npc7/TextureRect".visible = false
+
+
+
+func _on_npc_8_body_entered(body):
+	if body.name == "CharacterBody2D":
+		$"../npc8/npc8/TextureRect".visible = true
+		$Camera2D/npc8Block.visible = false
+
+
+func _on_npc_8_body_exited(body):
+	if body.name == "CharacterBody2D":
+		$"../npc8/npc8/TextureRect".visible = false
+		
+
+
+func _on_rainbow_body_entered(body):
+	if body.name == "CharacterBody2D":
+		get_tree().change_scene_to_file("res://end_menu.tscn")
