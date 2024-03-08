@@ -1,17 +1,24 @@
-[gd_scene load_steps=14 format=3 uid="uid://bgntkvdup4yul"]
+[gd_scene load_steps=15 format=3 uid="uid://bgntkvdup4yul"]
 
 [ext_resource type="Texture2D" uid="uid://bkxgn4kr62i14" path="res://assets/Layers/sky_lightened.png" id="1_od3mc"]
 [ext_resource type="Texture2D" uid="uid://bcxonjv63gh8o" path="res://assets/Layers/clouds_bg.png" id="2_73qrs"]
-[ext_resource type="Texture2D" uid="uid://ci3oybtwjjell" path="res://assets/rainbow.png" id="3_vnvyb"]
+[ext_resource type="Texture2D" uid="uid://cgr14jluveton" path="res://assets/rainbow.png" id="3_vnvyb"]
 [ext_resource type="Texture2D" uid="uid://ctup3u0e31dna" path="res://assets/Layers/clouds_mg_1_lightened.png" id="4_plpt1"]
 [ext_resource type="Texture2D" uid="uid://c7u6ay3sh84oh" path="res://assets/Start.png" id="5_khhyj"]
-[ext_resource type="Texture2D" uid="uid://cy0rkvdpa46hu" path="res://assets/memes/memes_img/meme_img1.png" id="6_pvd61"]
 [ext_resource type="Script" path="res://Button.gd" id="6_xuap5"]
-[ext_resource type="Texture2D" uid="uid://owg2it6y3snb" path="res://assets/memes/memes_img/meme_img3.png" id="7_kpyxg"]
-[ext_resource type="Texture2D" uid="uid://wmp3eow3ievk" path="res://assets/memes/memes_img/meme_img4.png" id="8_jl7cy"]
 [ext_resource type="Texture2D" uid="uid://bucq2t83gejon" path="res://assets/Idle1/1.png" id="9_ostpr"]
+[ext_resource type="AudioStream" uid="uid://cy1u0mopq5e42" path="res://laugh-high-pitch-154516.mp3" id="10_crywk"]
 [ext_resource type="Texture2D" uid="uid://ckoc4cgm0vrcq" path="res://assets/Idle3/1.png" id="11_jff1k"]
 [ext_resource type="FontFile" uid="uid://cbbvbfsoouyu2" path="res://PressStart2P-Regular.ttf" id="11_w78c4"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_m6hx8"]
+load_path = "res://.godot/imported/meme_img1.png-34aedaad059b714ac04e3ec7499b27af.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_t8lnh"]
+load_path = "res://.godot/imported/meme_img3.png-bd8c9595c5d7f659abbac57a46966510.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vb2xt"]
+load_path = "res://.godot/imported/meme_img4.png-6f4c0ed43f20741dedd77e6eeafc5a17.ctex"
 
 [sub_resource type="CanvasTexture" id="CanvasTexture_lom2b"]
 
@@ -41,10 +48,10 @@ texture_filter = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -369.0
-offset_top = -38.0
-offset_right = 484.0
-offset_bottom = 485.0
+offset_left = -938.0
+offset_top = -264.0
+offset_right = 1195.0
+offset_bottom = 875.0
 grow_horizontal = 2
 scale = Vector2(0.894664, 0.831845)
 size_flags_horizontal = 4
@@ -77,10 +84,10 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -41.0
-offset_top = -78.0
-offset_right = 33.0
-offset_bottom = -35.0
+offset_left = -54.0
+offset_top = -183.0
+offset_right = 57.0
+offset_bottom = -137.0
 grow_horizontal = 2
 grow_vertical = 0
 scale = Vector2(1.54167, 1.13723)
@@ -94,7 +101,7 @@ offset_right = 783.0
 offset_bottom = 808.0
 rotation = 0.47532
 scale = Vector2(0.461513, 0.478605)
-texture = ExtResource("6_pvd61")
+texture = SubResource("CompressedTexture2D_m6hx8")
 
 [node name="TextureRect7" type="TextureRect" parent="."]
 offset_left = 207.0
@@ -102,7 +109,7 @@ offset_top = 437.0
 offset_right = 656.0
 offset_bottom = 1037.0
 scale = Vector2(0.677713, 0.713721)
-texture = ExtResource("7_kpyxg")
+texture = SubResource("CompressedTexture2D_t8lnh")
 
 [node name="TextureRect8" type="TextureRect" parent="."]
 offset_left = 1244.0
@@ -110,7 +117,7 @@ offset_top = 154.0
 offset_right = 1930.0
 offset_bottom = 538.0
 scale = Vector2(-0.468562, 0.505258)
-texture = ExtResource("8_jl7cy")
+texture = SubResource("CompressedTexture2D_vb2xt")
 
 [node name="TextureRect9" type="TextureRect" parent="."]
 texture_filter = 1
@@ -122,10 +129,10 @@ texture = ExtResource("9_ostpr")
 
 [node name="TextureRect11" type="TextureRect" parent="."]
 texture_filter = 1
-offset_left = 956.0
-offset_top = 452.0
-offset_right = 1050.0
-offset_bottom = 543.0
+offset_left = 1001.0
+offset_top = 355.0
+offset_right = 1117.0
+offset_bottom = 467.0
 rotation = -0.00403396
 scale = Vector2(-3.70576, 3.18601)
 texture = ExtResource("11_jff1k")
@@ -133,8 +140,8 @@ texture = ExtResource("11_jff1k")
 [node name="TextureRect12" type="TextureRect" parent="."]
 offset_left = 203.0
 offset_top = 372.0
-offset_right = 245.0
-offset_bottom = 419.0
+offset_right = 243.0
+offset_bottom = 388.0
 scale = Vector2(18.4204, 3.76825)
 texture = SubResource("CanvasTexture_lom2b")
 
@@ -145,19 +152,21 @@ anchor_left = 0.020681
 anchor_top = 0.0846943
 anchor_right = 0.0206822
 anchor_bottom = 0.0846944
-offset_right = 1142.0
-offset_bottom = 201.0
+offset_left = 0.09565
+offset_top = 1.56402
+offset_right = 1055.1
+offset_bottom = 71.564
 scale = Vector2(0.0347932, 0.19603)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("11_w78c4")
 theme_override_font_sizes/font_size = 22
-text = "Вітаємо, друже!
-Ти здолав усі виклики й знайшов чарівну веселку.
-Ти пройшов через безліч випробувань, але не здався. Ти вірив у себе, і це привело тебе до перемоги.
-Ти - герой!
-Тепер ти знаєш, що немає нічого неможливого.
-Ти знайшов у собі силу й сміливість, щоб здолати будь-які перешкоди."
+text = "Вітаю, ти так довго йшов азаазазазазазазазаза.  "
 vertical_alignment = 1
 autowrap_mode = 1
+
+[node name="menu" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("10_crywk")
+volume_db = 2.476
+autoplay = true
 
 [connection signal="pressed" from="Button" to="Button" method="_on_pressed"]

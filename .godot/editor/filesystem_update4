@@ -1,6 +1,4 @@
 res://game.tscn
-res://player.gd
-res://end_menu.tscn
-res://Button.gd
 res://player.tscn
 res://menu.tscn
+res://end_menu.tscn

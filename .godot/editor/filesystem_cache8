@@ -1,82 +1,53 @@
-ea4bc82a6ad023ab7ee23ee620429895
-::res://::1709331121
-15 Blob TileMap 16x16 (1).png::CompressedTexture2D::5981344962990884528::1709322679::1709323874::1::::<><>::
+bdbec74c6e5bd72edee867077d70896c
+::res://::1709748298
 bg.mp3::AudioStreamMP3::7643498215677994519::1709332938::1709332962::1::::<><>::
 bg_sound.tscn::PackedScene::4445947525808119078::1709333690::0::1::::<><>::uid://dg5tkfrkkyet8::::res://bg.mp3
-dialog_area.tscn::PackedScene::2621791450698874013::1709416059::0::1::::<><>::
-end_menu.tscn::PackedScene::2835563245680372267::1709434560::0::1::::<><>::uid://bkxgn4kr62i14::::res://assets/Layers/sky_lightened.png<>uid://chjiq48d5vtu6::::res://assets/clouds_bg.png<>uid://dyl8e6rmi1ypb::::res://assets/rainbow.png<>uid://ctup3u0e31dna::::res://assets/Layers/clouds_mg_1_lightened.png<>uid://c2mvcbqbu7ufw::::res://assets/Start.png<>uid://b1qaowdffwxty::::res://assets/meme_img1.png<>uid://cleoagf8x2ovj::::res://assets/meme_img3.png<>uid://bwggncayo7u3r::::res://assets/meme_img4.png<>uid://sl86lty3ods6::::res://assets/Layers/1.png<>uid://f88sfyvbwayq::::res://assets/meme_img2.png<>uid://d22mxmf6e35ex::::res://assets/1.png
-game 2.tscn::PackedScene::4687429566205949515::1709433915::0::1::::<><>::uid://bkxgn4kr62i14::::res://assets/Layers/sky_lightened.png<>uid://sy7pk3q5t7n3::::res://player.tscn<>res://player.gd<>uid://bcxonjv63gh8o::::res://assets/Layers/clouds_bg.png<>uid://ctup3u0e31dna::::res://assets/Layers/clouds_mg_1_lightened.png<>uid://dotvqoor5dtj2::::res://assets/Idle.png<>uid://cbbvbfsoouyu2::::res://PressStart2P-Regular.ttf<>uid://l3i4y578u8yc::::res://assets/pnc_start.png
-game.tscn::PackedScene::4687429566205949515::1709434544::0::1::::<><>::uid://bkxgn4kr62i14::::res://assets/Layers/sky_lightened.png<>uid://ctjnfovsdrjck::::res://assets/Cloud Tileset.png<>uid://crhn43tmae7ge::::res://15 Blob TileMap 16x16 (1).png<>uid://sy7pk3q5t7n3::::res://player.tscn<>res://player.gd<>uid://bcxonjv63gh8o::::res://assets/Layers/clouds_bg.png<>uid://ctup3u0e31dna::::res://assets/Layers/clouds_mg_1_lightened.png<>uid://dotvqoor5dtj2::::res://assets/Idle.png<>uid://cbbvbfsoouyu2::::res://PressStart2P-Regular.ttf<>uid://l3i4y578u8yc::::res://assets/pnc_start.png<>uid://cqwv4lk87fvd3::::res://assets/pnc2.png<>uid://c7u6ay3sh84oh::::res://assets/Start.png<>uid://c6m22ywqq0htv::::res://assets/StartBlock.png<>uid://deygojg0t26o3::::res://assets/Idle/Idle1.png<>uid://crjexut5ougko::::res://assets/slot_npc.png<>uid://cy0rkvdpa46hu::::res://assets/memes/memes_img/meme_img1.png<>uid://bryuv02lpfkgo::::res://assets/memes_bord.png<>uid://lrjmec2uwv4f::::res://assets/Idle/Idle2.png<>uid://bnont8pjwfhhf::::res://assets/Idle/Idle3.png<>uid://cu47p7oxk76tm::::res://assets/Idle/Idle4.png<>uid://dxk4ftenyl14q::::res://assets/memes/memes_img/meme_img1_block.png<>uid://dtu8fsj2s5jcu::::res://assets/memes/memes_cloud/meme_cloud1.png<>uid://cpi8xh0x1rdnp::::res://assets/Idle/Idle5.png<>uid://5c6fjcc6qcqq::::res://assets/npc2.png<>uid://ckcdjybs0bfb8::::res://assets/memes/memes_img/meme_img2.png<>uid://deoywnbdqod5f::::res://assets/Idle/Idle6.png<>uid://ckoc4cgm0vrcq::::res://assets/Idle3/1.png<>uid://bk7k05fjysa47::::res://assets/memes/memes_img/meme_img2_block.png<>uid://cvncfipy5ctda::::res://assets/npc2Block.png<>uid://fgnr771ormxe::::res://assets/Idle3/2.png<>uid://owg2it6y3snb::::res://assets/memes/memes_img/meme_img3.png<>uid://cb4a7q8t5rt2q::::res://assets/memes/memes_img/meme_img3_block.png<>uid://bshfkh4usf37x::::res://assets/Idle3/3.png<>uid://wmp3eow3ievk::::res://assets/memes/memes_img/meme_img4.png<>uid://cvit0oklf7vm8::::res://assets/Idle3/4.png<>uid://482tr8ft5hvm::::res://assets/Idle2/1.png<>uid://ubj57y6swrt1::::res://assets/memes/memes_img/meme_img4_block.png<>uid://b5rxlqqxxo203::::res://assets/Idle2/2.png<>uid://c72vylahg43gg::::res://assets/memes/memes_cloud/meme_cloud2.png<>uid://bk2pn22qp3orf::::res://assets/Idle2/3.png<>uid://f0ox24vv141a::::res://assets/memes/memes_cloud/meme_cloud3.png<>uid://caj0c6ed6gqb3::::res://assets/Idle2/4.png<>uid://bucq2t83gejon::::res://assets/Idle1/1.png<>uid://fm7th82gthph::::res://assets/npc3.png<>uid://cxjnd1f3yxxcg::::res://assets/memes/memes_cloud/meme_cloud4.png<>uid://cwbuj37bpl5nt::::res://assets/Idle1/2.png<>uid://cmb2kl6emmc67::::res://assets/Idle1/3.png<>uid://ckpjcdq6kgakm::::res://assets/Idle1/4.png<>uid://bf0gus823s7tj::::res://assets/npc7_idle.png<>uid://b2cm4c2b5wcq0::::res://assets/satyr-Sheet.png<>uid://m4icm3itvslj::::res://assets/npc4Block.png<>uid://dvpr7v8tlsir1::::res://assets/npc5Block.png<>uid://t7ix74pojm3x::::res://assets/npc6Block.png<>uid://doset1mr5a215::::res://assets/npc7.png<>uid://ds6tk0habyje3::::res://assets/npc7Block.png<>uid://cjlwfwufhc10::::res://assets/npc8.png<>uid://dxbr2cj4pph6x::::res://assets/npc8Block.png<>uid://ci3oybtwjjell::::res://assets/rainbow.png
+Button.gd::GDScript::-1::1709435226::0::1::::<>Button<>::
+die.mp3::AudioStreamMP3::3302406096752047011::1709462141::1709462228::1::::<><>::
+end_menu.tscn::PackedScene::2835563245680372267::1709748132::0::1::::<><>::uid://bkxgn4kr62i14::::res://assets/Layers/sky_lightened.png<>uid://bcxonjv63gh8o::::res://assets/Layers/clouds_bg.png<>uid://cgr14jluveton::::res://assets/rainbow.png<>uid://ctup3u0e31dna::::res://assets/Layers/clouds_mg_1_lightened.png<>uid://c7u6ay3sh84oh::::res://assets/Start.png<>res://Button.gd<>uid://bucq2t83gejon::::res://assets/Idle1/1.png<>uid://cy1u0mopq5e42::::res://laugh-high-pitch-154516.mp3<>uid://ckoc4cgm0vrcq::::res://assets/Idle3/1.png<>uid://cbbvbfsoouyu2::::res://PressStart2P-Regular.ttf
+export_presets.cfg::TextFile::-1::1709550019::0::1::::<><>::
+game.gd::GDScript::-1::1709486053::0::1::::<>Node<>::
+game.tscn::PackedScene::4687429566205949515::1709748133::0::1::::<><>::res://game.gd<>uid://bkxgn4kr62i14::::res://assets/Layers/sky_lightened.png<>uid://ctjnfovsdrjck::::res://assets/Cloud Tileset.png<>uid://crhn43tmae7ge::::res://assets/15 Blob TileMap 16x16 (1).png<>uid://sy7pk3q5t7n3::::res://player.tscn<>res://player.gd<>uid://bcxonjv63gh8o::::res://assets/Layers/clouds_bg.png<>uid://ctup3u0e31dna::::res://assets/Layers/clouds_mg_1_lightened.png<>uid://dotvqoor5dtj2::::res://assets/Idle.png<>uid://cbbvbfsoouyu2::::res://PressStart2P-Regular.ttf<>uid://l3i4y578u8yc::::res://assets/pnc_start.png<>uid://cqwv4lk87fvd3::::res://assets/pnc2.png<>uid://c7u6ay3sh84oh::::res://assets/Start.png<>uid://deygojg0t26o3::::res://assets/Idle/Idle1.png<>uid://crjexut5ougko::::res://assets/slot_npc.png<>uid://bov5ged14toyp::::res://assets/memes/memes_img/meme_img1.png<>uid://bryuv02lpfkgo::::res://assets/memes_bord.png<>uid://lrjmec2uwv4f::::res://assets/Idle/Idle2.png<>uid://bnont8pjwfhhf::::res://assets/Idle/Idle3.png<>uid://cu47p7oxk76tm::::res://assets/Idle/Idle4.png<>uid://dtu8fsj2s5jcu::::res://assets/memes/memes_cloud/meme_cloud1.png<>uid://cpi8xh0x1rdnp::::res://assets/Idle/Idle5.png<>uid://5c6fjcc6qcqq::::res://assets/npc2.png<>uid://bdi0vwb3svwyt::::res://assets/memes/memes_img/meme_img2.png<>uid://deoywnbdqod5f::::res://assets/Idle/Idle6.png<>uid://ckoc4cgm0vrcq::::res://assets/Idle3/1.png<>uid://fgnr771ormxe::::res://assets/Idle3/2.png<>uid://bi8ijalvihpyq::::res://assets/memes/memes_img/meme_img3.png<>uid://bshfkh4usf37x::::res://assets/Idle3/3.png<>uid://de0u8i0qrsslv::::res://assets/memes/memes_img/meme_img4.png<>uid://cvit0oklf7vm8::::res://assets/Idle3/4.png<>uid://dvp7u3puaiph::::res://assets/Idle2/1.png<>uid://b0bmg4qwyftba::::res://assets/Idle2/2.png<>uid://c72vylahg43gg::::res://assets/memes/memes_cloud/meme_cloud2.png<>uid://6m7gy1c65die::::res://assets/Idle2/3.png<>uid://f0ox24vv141a::::res://assets/memes/memes_cloud/meme_cloud3.png<>uid://c1t0e5g0pk5xp::::res://assets/Idle2/4.png<>uid://bucq2t83gejon::::res://assets/Idle1/1.png<>uid://cxjnd1f3yxxcg::::res://assets/memes/memes_cloud/meme_cloud4.png<>uid://cwbuj37bpl5nt::::res://assets/Idle1/2.png<>uid://cmb2kl6emmc67::::res://assets/Idle1/3.png<>uid://ckpjcdq6kgakm::::res://assets/Idle1/4.png<>uid://bf0gus823s7tj::::res://assets/npc7_idle.png<>uid://b2cm4c2b5wcq0::::res://assets/satyr-Sheet.png<>uid://doset1mr5a215::::res://assets/npc7.png<>uid://cjlwfwufhc10::::res://assets/npc8.png<>uid://dd0y3e63f2dey::::res://assets/arrow.png<>uid://cgr14jluveton::::res://assets/rainbow.png<>uid://bnbye7xqc3d0f::::res://die.mp3<>uid://d4dkqnt6kiio0::::res://npc.mp3
+Icon.png::CompressedTexture2D::3201489621493338694::1709492337::1709492337::1::::<><>::
+index.apple-touch-icon.png::CompressedTexture2D::699366940226986540::1709476628::1709476689::1::::<><>::
+index.icon.png::CompressedTexture2D::3456321730192997217::1709476628::1709476689::1::::<><>::
+index.png::CompressedTexture2D::6697692964122279167::1709476628::1709476689::1::::<><>::
 jump.mp3::AudioStreamMP3::6579064891961143748::1709334332::1709334345::1::::<><>::
-menu.gd::GDScript::-1::1709417157::0::1::::<>Node<>::
-menu.tscn::PackedScene::6551604269046869034::1709433915::0::1::::<><>::res://menu.gd<>uid://bkxgn4kr62i14::::res://assets/Layers/sky_lightened.png<>uid://dxawyqcajwgau::::res://assets/logo.png<>uid://cbbvbfsoouyu2::::res://PressStart2P-Regular.ttf<>uid://bcxonjv63gh8o::::res://assets/Layers/clouds_bg.png<>uid://d1b81vd0jesgj::::res://assets/Layers/clouds_mg_1.png<>uid://on6ut3w38gvo::::res://assets/menu_img.png<>uid://cls4h0do5ek3j::::res://assets/menu_img2.png<>uid://dtgp74tw1fr0q::::res://assets/menu_img3.png<>uid://cin7eps6n0o8s::::res://assets/menu_img4.png
-npc.tscn::PackedScene::3647165013889433228::1709403980::0::1::::<><>::res://npc.gd
-player.gd::GDScript::-1::1709434542::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::1314914551514984014::1709433915::0::1::::<><>::uid://brj68jbx1xvjd::::res://assets/3 Dude_Monster/Dude_Monster_Idle_4.png<>uid://7ww0gddwoblt::::res://assets/3 Dude_Monster/Dude_Monster_Jump_8.png<>uid://bcjs1r7gb76kc::::res://assets/3 Dude_Monster/Dude_Monster_Run_6.png<>uid://dg5tkfrkkyet8::::res://bg.mp3<>uid://c0y7icu7hv0rg::::res://jump.mp3
+laugh-high-pitch-154516.mp3::AudioStreamMP3::6512307073619046229::1709482480::1709482480::1::::<><>::
+menu.gd::GDScript::-1::1709466731::0::1::::<>Node<>::
+menu.mp3::AudioStreamMP3::73266026130575095::1709466493::1709466511::1::::<><>::
+menu.tscn::PackedScene::6551604269046869034::1709748132::0::1::::<><>::res://menu.gd<>uid://bakgq0t7x3pgs::::res://assets/Знімок екрана 2024-03-03 о 14.56.40.png<>uid://cbbvbfsoouyu2::::res://PressStart2P-Regular.ttf<>uid://bglpf26eiem1::::res://assets/meme_main.png<>uid://7ldy3rehdwyx::::res://assets/meme_menu.png<>uid://ciui5crytsvc6::::res://assets/Logo.png<>uid://bbqxe7bqlny2::::res://menu.mp3
+npc.mp3::AudioStreamMP3::9201568106051586069::1709462169::1709462234::1::::<><>::
+player.gd::GDScript::-1::1709547167::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::1314914551514984014::1709748132::0::1::::<><>::uid://brj68jbx1xvjd::::res://assets/3 Dude_Monster/Dude_Monster_Idle_4.png<>uid://7ww0gddwoblt::::res://assets/3 Dude_Monster/Dude_Monster_Jump_8.png<>uid://bcjs1r7gb76kc::::res://assets/3 Dude_Monster/Dude_Monster_Run_6.png<>uid://dg5tkfrkkyet8::::res://bg.mp3<>uid://c0y7icu7hv0rg::::res://jump.mp3
 PressStart2P-Regular.ttf::FontFile::4846371722499144291::1709406679::1709406679::1::::<><>::
 ::res://assets/::1709327173
+15 Blob TileMap 16x16 (1).png::CompressedTexture2D::5981344962990884528::1709322679::1709476689::1::::<><>::
+arrow.png::CompressedTexture2D::7422945495162902804::1709548679::1709548690::1::::<><>::
 Cloud Tileset.png::CompressedTexture2D::6125807814761163946::1709308013::1709323874::1::::<><>::
+cloud.png::CompressedTexture2D::4381802920861188022::1709466129::1709466138::1::::<><>::
 Idle.png::CompressedTexture2D::8182433426656262705::1709321584::1709323874::1::::<><>::
-logo.png::CompressedTexture2D::8774984931124737516::1709411203::1709411211::1::::<><>::
+Logo.png::CompressedTexture2D::5376179113755883063::1709481019::1709481020::1::::<><>::
 memes_bord.png::CompressedTexture2D::3630429288477934138::1709425647::1709425653::1::::<><>::
-menu_img2.png::CompressedTexture2D::5583852058719718633::1709420423::1709420423::1::::<><>::
-menu_img3.png::CompressedTexture2D::8506205800585709934::1709420657::1709420657::1::::<><>::
-menu_img4.png::CompressedTexture2D::5363139931320986788::1709420652::1709420652::1::::<><>::
-menu_img.png::CompressedTexture2D::1011399706625566584::1709420292::1709420292::1::::<><>::
+meme_main.png::CompressedTexture2D::83270089732028514::1709481419::1709481419::1::::<><>::
+meme_menu.png::CompressedTexture2D::2268977658850430055::1709481414::1709481414::1::::<><>::
+menu_button.png::CompressedTexture2D::2435747769282861442::1709472407::1709472411::1::::<><>::
 npc2.png::CompressedTexture2D::2111685696327065064::1709426563::1709426569::1::::<><>::
-npc2Block.png::CompressedTexture2D::6273774802032224994::1709426541::1709426569::1::::<><>::
-npc3.png::CompressedTexture2D::377694044969125689::1709427525::1709427531::1::::<><>::
-npc4Block.png::CompressedTexture2D::902623059978509343::1709429062::1709429066::1::::<><>::
-npc5Block.png::CompressedTexture2D::8665283922918455260::1709429470::1709429470::1::::<><>::
-npc6Block.png::CompressedTexture2D::1400176652701613767::1709430301::1709430301::1::::<><>::
 npc7.png::CompressedTexture2D::8179342844597372542::1709431165::1709431165::1::::<><>::
-npc7Block.png::CompressedTexture2D::8487829751641025624::1709431155::1709431102::1::::<><>::
 npc7_idle.png::CompressedTexture2D::2789375361233221375::1709430635::1709431143::1::::<><>::
 npc8.png::CompressedTexture2D::159664558967057949::1709431969::1709431969::1::::<><>::
-npc8Block.png::CompressedTexture2D::8776750358108780953::1709431974::1709431974::1::::<><>::
 pnc2.png::CompressedTexture2D::5942606615802621470::1709426010::1709426010::1::::<><>::
 pnc_start.png::CompressedTexture2D::830418689500797286::1709404932::1709404940::1::::<><>::
-rainbow.png::CompressedTexture2D::5393047673443182057::1709413978::1709414027::1::::<><>::
+rainbow.png::CompressedTexture2D::5230699771508533733::1709480854::1709480855::1::::<><>::
 satyr-Sheet.png::CompressedTexture2D::4286428756207347121::1709431433::1709431433::1::::<><>::
 slot_npc.png::CompressedTexture2D::5984916131451020666::1709424853::1709424853::1::::<><>::
 Start.png::CompressedTexture2D::7062055450303644431::1709412949::1709414000::1::::<><>::
-StartBlock.png::CompressedTexture2D::6975156923749490175::1709426684::1709426684::1::::<><>::
-::res://assets/1 Pink_Monster/::1709327173
-Double_Jump_Dust_5.png::CompressedTexture2D::1510333489609871955::1709308582::1709323874::1::::<><>::
-Pink_Monster.png::CompressedTexture2D::8465754713662384886::1709308582::1709323874::1::::<><>::
-Pink_Monster_Attack1_4.png::CompressedTexture2D::89997100193758745::1709308582::1709323874::1::::<><>::
-Pink_Monster_Attack2_6.png::CompressedTexture2D::5049849107393794854::1709308582::1709323874::1::::<><>::
-Pink_Monster_Climb_4.png::CompressedTexture2D::6468175590643892381::1709308582::1709323874::1::::<><>::
-Pink_Monster_Death_8.png::CompressedTexture2D::5902381051765574423::1709308582::1709323874::1::::<><>::
-Pink_Monster_Hurt_4.png::CompressedTexture2D::5408394949598667514::1709308582::1709323874::1::::<><>::
-Pink_Monster_Idle_4.png::CompressedTexture2D::2889649008216086700::1709308582::1709323874::1::::<><>::
-Pink_Monster_Jump_8.png::CompressedTexture2D::8810875490179647881::1709308582::1709323874::1::::<><>::
-Pink_Monster_Push_6.png::CompressedTexture2D::4128492995914774390::1709308582::1709323874::1::::<><>::
-Pink_Monster_Run_6.png::CompressedTexture2D::4105636099695430816::1709308582::1709323874::1::::<><>::
-Pink_Monster_Throw_4.png::CompressedTexture2D::4393893192238984553::1709308582::1709323874::1::::<><>::
-Pink_Monster_Walk+Attack_6.png::CompressedTexture2D::4652905220772397322::1709308582::1709323874::1::::<><>::
-Pink_Monster_Walk_6.png::CompressedTexture2D::7826938934284607625::1709308582::1709323874::1::::<><>::
-Rock1.png::CompressedTexture2D::2380898076726526587::1709308582::1709323874::1::::<><>::
-Rock2.png::CompressedTexture2D::2727613924155218915::1709308582::1709323874::1::::<><>::
-Walk_Run_Push_Dust_6.png::CompressedTexture2D::5607139008399418786::1709308582::1709323874::1::::<><>::
+Знімок екрана 2024-03-03 о 14.56.40.png::CompressedTexture2D::2407458679813600810::1709470604::1709471536::1::::<><>::
 ::res://assets/3 Dude_Monster/::1709327173
-Double_Jump_Dust_5.png::CompressedTexture2D::4928247720367739948::1709308582::1709323874::1::::<><>::
 Dude_Monster.png::CompressedTexture2D::7286790102783331241::1709308582::1709323874::1::::<><>::
-Dude_Monster_Attack1_4.png::CompressedTexture2D::8575693596237121527::1709308582::1709323874::1::::<><>::
-Dude_Monster_Attack2_6.png::CompressedTexture2D::8065377711998239917::1709308582::1709323874::1::::<><>::
-Dude_Monster_Climb_4.png::CompressedTexture2D::1388989646198884692::1709308582::1709323874::1::::<><>::
-Dude_Monster_Death_8.png::CompressedTexture2D::2697002395411433947::1709308582::1709323874::1::::<><>::
-Dude_Monster_Hurt_4.png::CompressedTexture2D::4203415698781631047::1709308582::1709323874::1::::<><>::
 Dude_Monster_Idle_4.png::CompressedTexture2D::3600152058636455297::1709308582::1709323874::1::::<><>::
 Dude_Monster_Jump_8.png::CompressedTexture2D::2292840045635607549::1709308582::1709323874::1::::<><>::
-Dude_Monster_Push_6.png::CompressedTexture2D::6719261473465633462::1709308582::1709323874::1::::<><>::
 Dude_Monster_Run_6.png::CompressedTexture2D::2546518049872964002::1709308582::1709323874::1::::<><>::
-Dude_Monster_Throw_4.png::CompressedTexture2D::3529831070881679438::1709308582::1709323874::1::::<><>::
-Dude_Monster_Walk+Attack_6.png::CompressedTexture2D::2054197686951404416::1709308582::1709323874::1::::<><>::
-Dude_Monster_Walk_6.png::CompressedTexture2D::2875055063295749695::1709308582::1709323874::1::::<><>::
-Rock1.png::CompressedTexture2D::7819672095428460391::1709308582::1709323874::1::::<><>::
-Rock2.png::CompressedTexture2D::5911370631377864947::1709308582::1709323874::1::::<><>::
-Walk_Run_Push_Dust_6.png::CompressedTexture2D::8904669386840695635::1709308582::1709323874::1::::<><>::
 ::res://assets/Idle/::1709427179
 Idle1.png::CompressedTexture2D::7489952277941485980::1709427179::1709427179::1::::<><>::
 Idle2.png::CompressedTexture2D::807739798736511875::1709427179::1709427179::1::::<><>::
@@ -89,11 +60,11 @@ Idle6.png::CompressedTexture2D::7470415893987171101::1709427179::1709427179::1::
 2.png::CompressedTexture2D::6320292237330940973::1709428772::1709428772::1::::<><>::
 3.png::CompressedTexture2D::5618829711384435238::1709428772::1709428772::1::::<><>::
 4.png::CompressedTexture2D::5506245678309149328::1709428772::1709428772::1::::<><>::
-::res://assets/Idle2/::1709428772
-1.png::CompressedTexture2D::2105275164405052914::1709428772::1709428772::1::::<><>::
-2.png::CompressedTexture2D::4528597415386477082::1709428772::1709428772::1::::<><>::
-3.png::CompressedTexture2D::3144982750233601679::1709428772::1709428772::1::::<><>::
-4.png::CompressedTexture2D::4792943898160770686::1709428772::1709428772::1::::<><>::
+::res://assets/Idle2/::1674426067
+1.png::CompressedTexture2D::254887458475600453::1674425770::1709479282::1::::<><>::
+2.png::CompressedTexture2D::4143947020000492118::1674425770::1709479282::1::::<><>::
+3.png::CompressedTexture2D::2202581645218475840::1674425770::1709479282::1::::<><>::
+4.png::CompressedTexture2D::6638501133422650997::1674425770::1709479282::1::::<><>::
 ::res://assets/Idle3/::1709428772
 1.png::CompressedTexture2D::5503804429227143120::1709428772::1709428772::1::::<><>::
 2.png::CompressedTexture2D::364151895498526314::1709428772::1709428772::1::::<><>::
@@ -106,17 +77,14 @@ clouds_mg_1_lightened.png::CompressedTexture2D::6148678798018145174::1709308071:
 sky.png::CompressedTexture2D::8317136653998490103::1709308071::1709323874::1::::<><>::
 sky_lightened.png::CompressedTexture2D::3136178865134260505::1709308071::1709323874::1::::<><>::
 ::res://assets/memes/::1709415588
-::res://assets/memes/memes_cloud/::1709422546
+::res://assets/memes/memes_cloud/::1709415617
 meme_cloud1.png::CompressedTexture2D::8536151185589474220::1709415708::1709415708::1::::<><>::
 meme_cloud2.png::CompressedTexture2D::7075941057148755562::1709415711::1709415711::1::::<><>::
 meme_cloud3.png::CompressedTexture2D::403446237113244648::1709422545::1709422546::1::::<><>::
 meme_cloud4.png::CompressedTexture2D::6406560223771484062::1709422545::1709422546::1::::<><>::
-::res://assets/memes/memes_img/::1709422727
-meme_img1.png::CompressedTexture2D::6510034213674026118::1709422697::1709422697::1::::<><>::
-meme_img1_block.png::CompressedTexture2D::8796019958800464074::1709422697::1709422697::1::::<><>::
-meme_img2.png::CompressedTexture2D::5479058045354588015::1709422700::1709422701::1::::<><>::
-meme_img2_block.png::CompressedTexture2D::3155022606844850538::1709422703::1709422703::1::::<><>::
-meme_img3.png::CompressedTexture2D::1028473090893576451::1709422705::1709422706::1::::<><>::
-meme_img3_block.png::CompressedTexture2D::4902955203553126906::1709422727::1709422727::1::::<><>::
-meme_img4.png::CompressedTexture2D::1569888082964242724::1709422721::1709422722::1::::<><>::
-meme_img4_block.png::CompressedTexture2D::1406442996522700308::1709422716::1709422716::1::::<><>::
+::res://assets/memes/memes_img/::1709415626
+meme_img1.png::CompressedTexture2D::3414248867955885407::1709465614::1709465614::1::::<><>::
+meme_img2.png::CompressedTexture2D::2615058821486445987::1709465614::1709465614::1::::<><>::
+meme_img3.png::CompressedTexture2D::3016557724726584980::1709465614::1709465614::1::::<><>::
+meme_img4.png::CompressedTexture2D::7492900600094442675::1709465616::1709465617::1::::<><>::
+meme_imgBlock.png::CompressedTexture2D::1993871897456798044::1709465606::1709465607::1::::<><>::
