@@ -1,12 +1,87 @@
-[gd_scene load_steps=8 format=3 uid="uid://c0lv72wxay8d7"]
+[gd_scene load_steps=22 format=3 uid="uid://c0lv72wxay8d7"]
 
 [ext_resource type="Script" path="res://menu.gd" id="1_6u5p0"]
-[ext_resource type="Texture2D" uid="uid://bakgq0t7x3pgs" path="res://assets/Знімок екрана 2024-03-03 о 14.56.40.png" id="2_aohf8"]
+[ext_resource type="Texture2D" uid="uid://bkxgn4kr62i14" path="res://assets/Layers/sky_lightened.png" id="2_5rihy"]
 [ext_resource type="FontFile" uid="uid://cbbvbfsoouyu2" path="res://PressStart2P-Regular.ttf" id="3_b47d6"]
-[ext_resource type="Texture2D" uid="uid://bglpf26eiem1" path="res://assets/meme_main.png" id="4_efm5e"]
-[ext_resource type="Texture2D" uid="uid://7ldy3rehdwyx" path="res://assets/meme_menu.png" id="5_2eflh"]
+[ext_resource type="Texture2D" uid="uid://bcxonjv63gh8o" path="res://assets/Layers/clouds_bg.png" id="3_oyqy8"]
+[ext_resource type="Texture2D" uid="uid://d1b81vd0jesgj" path="res://assets/Layers/clouds_mg_1.png" id="4_yrao4"]
+[ext_resource type="Texture2D" uid="uid://dtu8fsj2s5jcu" path="res://assets/memes/memes_cloud/meme_cloud1.png" id="6_adxrt"]
+[ext_resource type="Texture2D" uid="uid://b3otwh6tbwjm1" path="res://assets/cloud.png" id="6_eyr1l"]
+[ext_resource type="Texture2D" uid="uid://c72vylahg43gg" path="res://assets/memes/memes_cloud/meme_cloud2.png" id="7_ogv81"]
 [ext_resource type="Texture2D" uid="uid://ciui5crytsvc6" path="res://assets/Logo.png" id="8_o75vu"]
+[ext_resource type="Texture2D" uid="uid://f0ox24vv141a" path="res://assets/memes/memes_cloud/meme_cloud3.png" id="8_w67bh"]
+[ext_resource type="Texture2D" uid="uid://brj68jbx1xvjd" path="res://assets/3 Dude_Monster/Dude_Monster_Idle_4.png" id="9_lx2mh"]
+[ext_resource type="Texture2D" uid="uid://cxjnd1f3yxxcg" path="res://assets/memes/memes_cloud/meme_cloud4.png" id="9_n2d0y"]
 [ext_resource type="AudioStream" uid="uid://bbqxe7bqlny2" path="res://menu.mp3" id="11_vaxob"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_p6fyb"]
+texture = ExtResource("6_eyr1l")
+texture_margin_left = 20.0
+texture_margin_top = 20.0
+texture_margin_right = 20.0
+texture_margin_bottom = 20.0
+expand_margin_left = 20.0
+expand_margin_top = 20.0
+expand_margin_right = 20.0
+expand_margin_bottom = 20.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qnbt2"]
+texture = ExtResource("6_eyr1l")
+texture_margin_left = 20.0
+texture_margin_top = 20.0
+texture_margin_right = 20.0
+texture_margin_bottom = 20.0
+expand_margin_left = 20.0
+expand_margin_top = 20.0
+expand_margin_right = 20.0
+expand_margin_bottom = 20.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0catm"]
+texture = ExtResource("6_eyr1l")
+texture_margin_left = 20.0
+texture_margin_top = 20.0
+texture_margin_right = 20.0
+texture_margin_bottom = 20.0
+expand_margin_left = 20.0
+expand_margin_top = 20.0
+expand_margin_right = 20.0
+expand_margin_bottom = 20.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_47lv0"]
+atlas = ExtResource("9_lx2mh")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2vxrg"]
+atlas = ExtResource("9_lx2mh")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mrmnc"]
+atlas = ExtResource("9_lx2mh")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m5h7o"]
+atlas = ExtResource("9_lx2mh")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xlctj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_47lv0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2vxrg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mrmnc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m5h7o")
+}],
+"loop": true,
+"name": &"default",
+"speed": 8.0
+}]
 
 [node name="Menu" type="Node"]
 script = ExtResource("1_6u5p0")
@@ -17,55 +92,27 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_aohf8")
+texture = ExtResource("2_5rihy")
 expand_mode = 1
 
-[node name="play" type="Button" parent="."]
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -83.243
-offset_top = -101.252
-offset_right = 435.757
-offset_bottom = -10.2523
+[node name="TextureRect3" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_fonts/font = ExtResource("3_b47d6")
-theme_override_font_sizes/font_size = 27
-text = "ГРАТИ"
-
-[node name="TextureRect6" type="TextureRect" parent="."]
-texture_filter = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -685.045
-offset_top = -375.926
-offset_right = 65.9551
-offset_bottom = 413.074
-grow_horizontal = 2
-grow_vertical = 2
-texture = ExtResource("4_efm5e")
+texture = ExtResource("3_oyqy8")
 expand_mode = 1
 
-[node name="TextureRect9" type="TextureRect" parent="."]
-texture_filter = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -53.7388
-offset_top = -58.111
-offset_right = 595.261
-offset_bottom = 386.889
+[node name="TextureRect4" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 0.974182
+offset_bottom = 0.974182
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("5_2eflh")
+texture = ExtResource("4_yrao4")
 expand_mode = 1
 
 [node name="TextureRect" type="TextureRect" parent="."]
@@ -74,13 +121,73 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -456.417
-offset_top = -284.56
-offset_right = 500.583
-offset_bottom = -129.561
+offset_left = -502.892
+offset_top = -279.865
+offset_right = 505.108
+offset_bottom = -116.865
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("8_o75vu")
+
+[node name="TextureRect5" type="TextureRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -509.178
+offset_top = -95.1774
+offset_right = -324.178
+offset_bottom = -9.17737
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("6_adxrt")
+expand_mode = 1
+
+[node name="TextureRect7" type="TextureRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 245.794
+offset_top = 49.9794
+offset_right = 466.794
+offset_bottom = 152.979
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("7_ogv81")
+expand_mode = 1
+
+[node name="TextureRect8" type="TextureRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -347.413
+offset_top = 27.8865
+offset_right = -187.413
+offset_bottom = 102.886
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("8_w67bh")
+expand_mode = 1
+
+[node name="TextureRect6" type="TextureRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 340.379
+offset_top = -97.1723
+offset_right = 525.379
+offset_bottom = -11.1723
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("9_n2d0y")
+expand_mode = 1
 
 [node name="menu" type="AudioStreamPlayer2D" parent="."]
 position = Vector2(0, -0.947693)
@@ -88,4 +195,60 @@ stream = ExtResource("11_vaxob")
 volume_db = -5.572
 autoplay = true
 
+[node name="play" type="Button" parent="."]
+offset_left = 432.386
+offset_top = 336.284
+offset_right = 736.386
+offset_bottom = 442.284
+focus_neighbor_top = NodePath("../quit")
+theme_override_colors/font_color = Color(0.478431, 0.831373, 1, 1)
+theme_override_colors/font_pressed_color = Color(0.211765, 0.65098, 0.878431, 1)
+theme_override_colors/font_hover_color = Color(0.337255, 0.729412, 0.94902, 1)
+theme_override_fonts/font = ExtResource("3_b47d6")
+theme_override_font_sizes/font_size = 48
+theme_override_styles/normal = SubResource("StyleBoxTexture_p6fyb")
+theme_override_styles/hover = SubResource("StyleBoxTexture_qnbt2")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_0catm")
+text = "Play"
+
+[node name="settings" type="Button" parent="."]
+offset_left = 140.077
+offset_top = 494.169
+offset_right = 564.077
+offset_bottom = 582.169
+theme_override_colors/font_color = Color(0.478431, 0.831373, 1, 1)
+theme_override_colors/font_pressed_color = Color(0.211765, 0.65098, 0.878431, 1)
+theme_override_colors/font_hover_color = Color(0.337255, 0.729412, 0.94902, 1)
+theme_override_fonts/font = ExtResource("3_b47d6")
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxTexture_p6fyb")
+theme_override_styles/hover = SubResource("StyleBoxTexture_qnbt2")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_0catm")
+text = "Settings"
+
+[node name="quit" type="Button" parent="."]
+offset_left = 652.502
+offset_top = 523.532
+offset_right = 932.502
+offset_bottom = 611.532
+focus_neighbor_bottom = NodePath("../play")
+theme_override_colors/font_color = Color(0.478431, 0.831373, 1, 1)
+theme_override_colors/font_pressed_color = Color(0.211765, 0.65098, 0.878431, 1)
+theme_override_colors/font_hover_color = Color(0.337255, 0.729412, 0.94902, 1)
+theme_override_fonts/font = ExtResource("3_b47d6")
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxTexture_p6fyb")
+theme_override_styles/hover = SubResource("StyleBoxTexture_qnbt2")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_0catm")
+text = "Quit"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(672.637, 302.699)
+scale = Vector2(3.47961, 3.47961)
+sprite_frames = SubResource("SpriteFrames_xlctj")
+autoplay = "default"
+frame_progress = 0.0390224
+
 [connection signal="pressed" from="play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="quit" to="." method="_on_quit_pressed"]

@@ -2,3 +2,4 @@ res://game.tscn
 res://player.tscn
 res://menu.tscn
 res://end_menu.tscn
+res://menu.gd
